@@ -28,43 +28,9 @@ you need to install these package to run
 - tqdm 4.0+  
 - python 3.5+
 ----
-### Logs and checkpoints
 
-The training will create a log and checkpoint to store the model. \
-You can find log in ./logs/\{method_name\}/\{dataset_name\}/date.txt \
-You can find checkpoints in ./checkpoints/\{method_name\}/\{dataset_name\}/\{bit\}-\{model_name\}.pth
+### How to run
+# Step1: Run your Visdom: python -m visdom.server
+# Step2: Execute function run in main.py
 
-----
-### How to using
-- create a configuration file as ./script/default_config.yml
-```yaml
-training:
-  # the name of python file in training
-  method: MLSPH
-  # the data set name, you can choose mirflickr25k, nus wide, ms coco, iapr tc-12
-  dataName: Mirflickr25K
-  batchSize: 64
-  # the bit of hash codes
-  bit: 64
-  # if true, the program will be run on gpu. Of course, you need install 'cuda' and 'cudnn' better.
-  cuda: True
-  # the device id you want to use, if you want to multi gpu, you can use [id1, id2]
-  device: 0
-datasetPath:
-  Mirflickr25k:
-    # the path you download the image of data set. Attention: image files, not mat file.
-    img_dir: \dataset\mirflickr25k\mirflickr
-
-```
-- run ./script/main.py and input configuration file path.
-```python
-from torchcmh.run import run
-if __name__ == '__main__':
-    run(config_path='default_config.yml')
-```
-- data visualization
-Before you start trainer, please use command as follows to open visdom server.
-```shell script
-python -m visdom.server
-```
-Then you can see the charts in browser in special port.
+If you have any problems, please feel free to contact Xitao Zou (xitaozou@mail.swu.edu.cn).
