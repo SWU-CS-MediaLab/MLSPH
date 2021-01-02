@@ -32,6 +32,7 @@ you need to install these package to run
 ### How to run
  
  Step1: Run your Visdom: python -m visdom.server
+ 
  Step2: Execute function run in main.py
 
 If you have any problems, please feel free to contact Xitao Zou (xitaozou@mail.swu.edu.cn).
