@@ -29,6 +29,15 @@ you need to install these package to run
 - python 3.5+
 ----
 
+### Dataset
+
+we implement our method on dataset Mirflckr25K:
+
+(1) please download the original image-text data of Mirflckr25K from http://press.liacs.nl/mirflickr/mirdownload.html  and put it under the folder /dataset/data/.
+
+(2) please download the mirflickr25k-fall.mat, mirflickr25k-iall.mat, mirflickr25k-lall.mat and mirflickr25k-yall.mat from https://pan.baidu.com/s/1FX82NhdtnTeARcgmqxYCag 
+(提取码：imk4) and put them under the folder /dataset/data/.
+
 ### How to run
  
  Step1: Run your Visdom: python -m visdom.server
