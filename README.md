@@ -6,6 +6,7 @@ Due to the storage and retrieval efficiency of hashing, as well as the highly di
 ------
 
 Please cite our paper if you use this code in your own work:
+
 @article{zou2021,  
 author = {Zou, Xitao and Wang, Xinzhi and Bakker, Erwin and Wu, Song},    
 year = {2021},    
