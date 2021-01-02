@@ -44,7 +44,7 @@ You can find checkpoints in ./checkpoints/\{method_name\}/\{dataset_name\}/\{bit
 ```yaml
 training:
   # the name of python file in training
-  method: SCAHN
+  method: MLSPH
   # the data set name, you can choose mirflickr25k, nus wide, ms coco, iapr tc-12
   dataName: Mirflickr25K
   batchSize: 64
