@@ -12,7 +12,7 @@ year = {2021},
 month = {01},    
 pages = {},  
 title = {Multi-Label Semantics Preserving based Deep Cross-Modal Hashing},    
-journal = {signal processing image communication},   
+journal = {Signal Processing: Image Communication},   
 doi = {}   
 }  
 
