@@ -1,7 +1,7 @@
 training:
   method: MLSPH
   dataName: Mirflickr25K
-  batchSize: 64
+  batchSize: 128
   bit: 64
   cuda: True
   device: 0
