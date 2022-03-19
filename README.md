@@ -13,8 +13,9 @@ Please cite our paper if you use this code in your own work:
 @article{zou2021,  
 author = {Zou, Xitao and Wang, Xinzhi and Bakker, Erwin and Wu, Song},    
 year = {2021},    
-month = {01},    
-pages = {},  
+month = {04}, 
+volume = {93}，
+pages = {116-131},  
 title = {Multi-Label Semantics Preserving based Deep Cross-Modal Hashing},    
 journal = {Signal Processing: Image Communication},   
 doi = {}   
